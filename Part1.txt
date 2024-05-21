@@ -1,0 +1,26 @@
+In your own terms, define the following terms:
+- What is HTTP?
+Stands for Hypertext Transfer Protocol and is a set of rules to say how to communicate between a browser and a web server
+- What is a URL?
+Short for  Domain Name System, and is the address for websites on the internet
+- What is DNS?
+Stands for Domain Name System, and it turnsURLs into IP adresses
+- What is a query string?
+Extra information on the end of a url to take you to a specific location on the page or to set information on a page
+- What are two HTTP verbs and how are they different?
+Get: Request data from a server
+Post: Send data to a server to change the server
+- What is an HTTP request?
+A request from your computer to grab information from a server
+- What is an HTTP response?
+Response from the HTTP request conataining the information on the web page.
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Headers are the additional information in HTTP requests/responses
+Request examples: Text-type, Hostname you're asking about, date, language, cookies
+Response Examples: Language, status-code
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+1. The browser changes the URL to an IP address to finsd which server to send the request
+2. The browser makes the request with the IP adresses with the headers as well
+3. The server sends a response usually includes HTML and a status code
+4. The browser creates the DOM from the HTML, JavaScript, or whatever information was gathered from the server.
+5. The browser has seperate requests for the resources gathered.
